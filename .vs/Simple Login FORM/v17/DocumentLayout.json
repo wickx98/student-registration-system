@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|c:\\users\\wickx\\source\\repos\\simple-csharp-loginform\\simple login form\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\registerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\registerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|c:\\users\\wickx\\source\\repos\\simple-csharp-loginform\\simple login form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\simple login form\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{34158B2D-FEB2-4F04-AEFE-A32A1B91E439}|Simple Login FORM\\Simple Login FORM.csproj|solutionrelative:simple login form\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\Program.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\Program.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\Program.cs",
+              "RelativeToolTip": "Simple Login FORM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:42:04.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "Simple Login FORM\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:58:52.998Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.cs",
+              "RelativeToolTip": "Simple Login FORM\\LoginForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:16:57.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wickx\\Source\\Repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\RegisterForm.Designer.cs",
+              "ToolTip": "C:\\Users\\wickx\\Source\\Repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "Simple Login FORM\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAMwDQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:59:36.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.Designer.cs",
+              "RelativeToolTip": "Simple Login FORM\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:59:09.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.resx",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.resx",
+              "RelativeDocumentMoniker": "Simple Login FORM\\LoginForm.resx",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.resx",
+              "RelativeToolTip": "Simple Login FORM\\LoginForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-21T16:59:14.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Simple Login FORM\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:59:05.766Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Simple Login FORM\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.cs",
+              "RelativeToolTip": "Simple Login FORM\\RegisterForm.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAgwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:37:30.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterForm.resx",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.resx",
+              "RelativeDocumentMoniker": "Simple Login FORM\\RegisterForm.resx",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\RegisterForm.resx",
+              "RelativeToolTip": "Simple Login FORM\\RegisterForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-22T13:46:44.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\App.config",
+              "RelativeDocumentMoniker": "Simple Login FORM\\App.config",
+              "ToolTip": "C:\\Users\\wickx\\source\\repos\\Simple-CSharp-LoginForm\\Simple Login FORM\\App.config",
+              "RelativeToolTip": "Simple Login FORM\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-21T17:28:29.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
