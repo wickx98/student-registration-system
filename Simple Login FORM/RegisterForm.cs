@@ -23,16 +23,17 @@ namespace Simple_Login_FORM
 
             try
             {
-                _connection.Open();
-                SqlCommand cmd = new SqlCommand("SELECT regNo FROM Registration", _connection);
-                SqlDataReader reader = cmd.ExecuteReader();
+                if (_connection.State != ConnectionState.Open)
+                    _connection.Open();
 
-                while (reader.Read())
+                using (SqlCommand cmd = new SqlCommand("SELECT regNo FROM Registration", _connection))
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    regNoComboBox.Items.Add(reader["regNo"].ToString());
+                    while (reader.Read())
+                    {
+                        regNoComboBox.Items.Add(reader["regNo"].ToString());
+                    }
                 }
-
-                reader.Close();  // <-- Important: Close the reader before closing the connection
             }
             catch (Exception ex)
             {
@@ -45,31 +46,7 @@ namespace Simple_Login_FORM
             }
         }
 
-
-
-
-
-        // Return to Login Form
-        private void ReturnButton_Click(object sender, EventArgs e)
-        {
-            Hide();
-            new LoginForm().Show();
-        }
-
-        private void LogOutButton_Click(object sender, EventArgs e)
-        {
-            Hide();
-            new LoginForm().Show();
-        }
-
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
+        // Clear form fields
         private void ClearFields()
         {
             regNoComboBox.Text = "";
@@ -90,6 +67,31 @@ namespace Simple_Login_FORM
         private void ResetButton_Click(object sender, EventArgs e)
         {
             ClearFields();
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            ClearFields();
+        }
+
+        private void ReturnButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new LoginForm().Show();
+        }
+
+        private void LogOutButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new LoginForm().Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private SqlCommand BuildSqlCommand(string query)
@@ -116,7 +118,9 @@ namespace Simple_Login_FORM
         {
             try
             {
-                _connection.Open();
+                if (_connection.State != ConnectionState.Open)
+                    _connection.Open();
+
                 int rowsAffected = cmd.ExecuteNonQuery();
 
                 MessageBox.Show(rowsAffected > 0 ? successMessage : "Operation failed.", rowsAffected > 0 ? "Success" : "Failure");
@@ -124,7 +128,7 @@ namespace Simple_Login_FORM
                 if (rowsAffected > 0)
                 {
                     ClearFields();
-                    LoadRegistrationNumbers();  // Refresh combo box after changes
+                    LoadRegistrationNumbers();  // Refresh combo box
                 }
             }
             catch (Exception ex)
@@ -133,7 +137,8 @@ namespace Simple_Login_FORM
             }
             finally
             {
-                _connection.Close();
+                if (_connection.State == ConnectionState.Open)
+                    _connection.Close();
             }
         }
 
@@ -186,7 +191,9 @@ namespace Simple_Login_FORM
 
             try
             {
-                _connection.Open();
+                if (_connection.State != ConnectionState.Open)
+                    _connection.Open();
+
                 SqlCommand cmd = new SqlCommand("DELETE FROM Registration WHERE regNo = @regNo", _connection);
                 cmd.Parameters.AddWithValue("@regNo", int.Parse(regNoComboBox.Text));
 
@@ -206,16 +213,11 @@ namespace Simple_Login_FORM
             }
             finally
             {
-                _connection.Close();
+                if (_connection.State == ConnectionState.Open)
+                    _connection.Close();
             }
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        // Populate student details on selecting Reg No
         private void regNoComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(regNoComboBox.Text))
@@ -223,33 +225,36 @@ namespace Simple_Login_FORM
 
             try
             {
-                _connection.Open();
+                if (_connection.State != ConnectionState.Open)
+                    _connection.Open();
+
                 SqlCommand cmd = new SqlCommand("SELECT * FROM Registration WHERE regNo = @regNo", _connection);
                 cmd.Parameters.AddWithValue("@regNo", int.Parse(regNoComboBox.Text));
 
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                if (reader.Read())
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    firstNameBox.Text = reader["firstName"].ToString();
-                    lastNameBox.Text = reader["lastName"].ToString();
-                    datePicker.Value = Convert.ToDateTime(reader["dateOfBirth"]);
-                    addressBox.Text = reader["address"].ToString();
-                    emailBox.Text = reader["email"].ToString();
-                    mobileBox.Text = reader["mobilePhone"].ToString();
-                    homeBox.Text = reader["homePhone"].ToString();
-                    parentBox.Text = reader["parentName"].ToString();
-                    nicBox.Text = reader["nic"].ToString();
-                    contactBox.Text = reader["contactNo"].ToString();
+                    if (reader.Read())
+                    {
+                        firstNameBox.Text = reader["firstName"].ToString();
+                        lastNameBox.Text = reader["lastName"].ToString();
+                        datePicker.Value = Convert.ToDateTime(reader["dateOfBirth"]);
+                        addressBox.Text = reader["address"].ToString();
+                        emailBox.Text = reader["email"].ToString();
+                        mobileBox.Text = reader["mobilePhone"].ToString();
+                        homeBox.Text = reader["homePhone"].ToString();
+                        parentBox.Text = reader["parentName"].ToString();
+                        nicBox.Text = reader["nic"].ToString();
+                        contactBox.Text = reader["contactNo"].ToString();
 
-                    string gender = reader["gender"].ToString();
-                    maleRadio.Checked = gender == "Male";
-                    femaleRadio.Checked = gender == "Female";
-                }
-                else
-                {
-                    MessageBox.Show("No student found with this Registration Number.", "Not Found");
-                    ClearFields();
+                        string gender = reader["gender"].ToString();
+                        maleRadio.Checked = gender == "Male";
+                        femaleRadio.Checked = gender == "Female";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No student found with this Registration Number.", "Not Found");
+                        ClearFields();
+                    }
                 }
             }
             catch (Exception ex)
@@ -258,8 +263,14 @@ namespace Simple_Login_FORM
             }
             finally
             {
-                _connection.Close();
+                if (_connection.State == ConnectionState.Open)
+                    _connection.Close();
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            // You can leave this empty or add code if needed
         }
     }
 }
